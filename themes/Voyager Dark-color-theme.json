@@ -317,7 +317,7 @@
 				"variable.parameter.function-call"
 			],
 			"settings": {
-				"foreground": "#418dc4" // session in script(session = y) BFBDB6 50abeb
+				"foreground": "#BFBDB6" // session in script(session = y) BFBDB6 50abeb 418dc4
 			}							  
 		},
 		{
@@ -325,7 +325,7 @@
 				"variable.member"
 			],
 			"settings": {
-				"foreground": "#fb0000" 
+				"foreground": "#F07178" 
 			}
 		},
 		{
@@ -358,7 +358,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#FF8F40" // = != > < 
+				"foreground": "#F29668" // = != > < FF8F40
 			}
 		},
 		{
@@ -433,7 +433,7 @@
 				"storage.type.function"
 			],
 			"settings": {
-				"foreground": "#FF8F40"  // def
+				"foreground": "#FF8F40"  // def 
 			}
 		},
 		{
@@ -449,7 +449,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#FFB454" // 
+				"foreground": "#FFB454"
 			}
 		},
 		{
@@ -469,7 +469,7 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#ff54ff" //FFB454
+				"foreground": "#FFB454" // ff54ff
 			}
 		},
 		{
