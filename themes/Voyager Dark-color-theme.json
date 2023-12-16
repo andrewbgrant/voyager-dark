@@ -9,7 +9,7 @@
 		"activityBar.inactiveForeground": "#ffffff99",
 		"activityBarBadge.background": "#e6b450",
 		"activityBarBadge.foreground": "#734d00",
-
+		
 		"badge.background": "#e6b45033",
 		"badge.foreground": "#e6b450",
 		
@@ -19,7 +19,7 @@
 		"button.secondaryBackground": "#989ba233",
 		"button.secondaryForeground": "#bfbdb6",
 		"button.secondaryHoverBackground": "#989ba280",
-
+		
 		"debugConsoleInputIcon.foreground": "#e6b450",
 		"debugExceptionWidget.background": "#0f131a",
 		"debugExceptionWidget.border": "#1e232b",
@@ -35,7 +35,7 @@
 		"dropdown.background": "#0d1017",
 		"dropdown.border": "#989ba245",
 		"dropdown.foreground": "#989ba2",
-		"editor.background": "#f90000",
+		"editor.background": "#6d2626",
 		"editor.findMatchBackground": "#6c5980",
 		"editor.findMatchBorder": "#6c5980",
 		"editor.findMatchHighlightBackground": "#6c598066",
@@ -613,7 +613,7 @@
 			],
 			"settings": {
 				"foreground": "#39BAE6",
-				"fontStyle": "normal"
+				// "fontStyle": "normal"
 			}
 		},
 		{
@@ -699,7 +699,7 @@
 				"markup.raw"
 			],
 			"settings": {
-				"background": "#BFBDB605"
+				//"background": "#BFBDB605"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 				"markup.raw.inline"
 			],
 			"settings": {
-				"background": "#BFBDB60F"
+				//"background": "#BFBDB60F"
 			}
 		},
 		{
@@ -716,7 +716,7 @@
 			],
 			"settings": {
 				"foreground": "#ACB6BF8C",
-				"background": "#BFBDB60F",
+				//"background": "#BFBDB60F",
 				"fontStyle": "bold"
 			}
 		},
@@ -775,7 +775,7 @@
 			],
 			"settings": {
 				"foreground": "#39BAE6",
-				"background": "#BFBDB60F"
+				//"background": "#BFBDB60F"
 			}
 		},
 		{
@@ -792,7 +792,7 @@
 			],
 			"settings": {
 				"foreground": "#ACB6BF8C",
-				"background": "#ACB6BF8C"
+				//"background": "#ACB6BF8C"
 			}
 		},
 		{
@@ -801,7 +801,7 @@
 			],
 			"settings": {
 				"foreground": "#ACB6BF8C",
-				"background": "#BFBDB6"
+				//"background": "#BFBDB6"
 			}
 		},
 		{
