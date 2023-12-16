@@ -1,0 +1,21 @@
+{
+  "name": "voyager-dark",
+  "displayName": "Voyager Dark",
+  "description": "A dark theme focused on python",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Voyager Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Voyager Dark-color-theme.json"
+      }
+    ]
+  }
+}
