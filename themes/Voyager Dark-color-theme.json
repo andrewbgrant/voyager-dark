@@ -26,7 +26,7 @@
 		"debugIcon.breakpointDisabledForeground": "#f2966880",
 		"debugIcon.breakpointForeground": "#f29668",
 		"debugToolBar.background": "#0f131a",
-
+		
 		"descriptionForeground": "#989ba2",
 		
 		"diffEditor.diagonalFill": "#1e232b",
@@ -35,13 +35,13 @@
 		"dropdown.background": "#0d1017",
 		"dropdown.border": "#989ba245",
 		"dropdown.foreground": "#989ba2",
-		"editor.background": "#6d2626",
+		"editor.background": "#d73c3c",
 		"editor.findMatchBackground": "#6c5980",
 		"editor.findMatchBorder": "#6c5980",
 		"editor.findMatchHighlightBackground": "#6c598066",
 		"editor.findMatchHighlightBorder": "#5f4c7266",
 		"editor.findRangeHighlightBackground": "#6c598040",
-		"editor.foreground": "#ffffff",
+		"editor.foreground": "#f65e5e",
 		"editor.inactiveSelectionBackground": "#409fff21",
 		"editor.lineHighlightBackground": "#131721",
 		"editor.rangeHighlightBackground": "#6c598033",
