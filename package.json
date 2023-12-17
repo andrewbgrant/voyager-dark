@@ -3,6 +3,11 @@
   "displayName": "Voyager Dark",
   "description": "A dark theme focused on python",
   "version": "0.0.1",
+  "publisher":"",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
