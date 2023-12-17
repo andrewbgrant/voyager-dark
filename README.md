@@ -10,7 +10,7 @@ A simple dark theme by the Voager Team with a focus on python syntax highlightin
 ## Install
 
 ```shell
-ext install ayu
+ext install voyager
 ```
 
 
