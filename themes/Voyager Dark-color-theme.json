@@ -42,7 +42,7 @@
 		"editor.findMatchHighlightBackground": "#6c598066",
 		"editor.findMatchHighlightBorder": "#5f4c7266",
 		"editor.findRangeHighlightBackground": "#6c598040",
-		"editor.foreground": "#c4c6ca",
+		"editor.foreground": "#c7c7c7dc", // c4c6ca ffffff99   e9e8e8ca
 		"editor.inactiveSelectionBackground": "#409fff21",
 		"editor.lineHighlightBackground": "#232424",
 		"editor.rangeHighlightBackground": "#6c598033",
@@ -272,7 +272,7 @@
 				"comment"
 			],
 			"settings": {
-				"foreground": "#00EEFF",  // comments
+				"foreground": "#666666",  // comments  00EEFF
 				"fontStyle": "italic"
 			}
 		},
@@ -282,7 +282,7 @@
 				"constant.other.symbol"
 			],
 			"settings": {
-				"foreground": "#AAD94C" // strings
+				"foreground": "#b0d47e" // strings
 			}
 		},
 		{
@@ -300,7 +300,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#D2A6FF" // cosntats x = 2
+				"foreground": "#d2a6ff" // constants x = 2   D2A6FF ffcb6b  f78c6c
 			}
 		},
 		{
@@ -308,8 +308,17 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#D2A6FF" // True, False None
+				"foreground": "#cc856c" // True, False None
 			}
+		},
+		{
+			"scope": [
+				"variable",
+				"variable.parameter.function.language.python"
+			],
+			"settings": {
+				"foreground": "#BFBDB6" // session in def script(session = y) BFBDB6 50abeb 418dc4
+			}							  
 		},
 		{
 			"scope": [
@@ -317,7 +326,7 @@
 				"variable.parameter.function-call"
 			],
 			"settings": {
-				"foreground": "#BFBDB6" // session in script(session = y) BFBDB6 50abeb 418dc4
+				"foreground": "#ffcb6b" // session in script(session = y) BFBDB6 50abeb 418dc4
 			}							  
 		},
 		{
@@ -325,7 +334,7 @@
 				"variable.member"
 			],
 			"settings": {
-				"foreground": "#F07178" 
+				"foreground": "#71e5f0" 
 			}
 		},
 		{
@@ -350,7 +359,15 @@
 				"keyword"
 			],
 			"settings": {
-				"foreground": "#FF8F40" // import retrun 
+				"foreground": "#FF8F40" // import retrun  FF8F40
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#c792e9" // import retrun  FF8F40
 			}
 		},
 		{
@@ -425,7 +442,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#39BAE6"
+				"foreground": "#39BAE6"    // Base in class Derived(Base)
 			}
 		},
 		{
@@ -433,7 +450,7 @@
 				"storage.type.function"
 			],
 			"settings": {
-				"foreground": "#FF8F40"  // def 
+				"foreground": "#c792e9"  // def  FF8F40
 			}
 		},
 		{
@@ -444,12 +461,22 @@
 				"foreground": "#39BAE6"
 			}
 		},
+		// {
+		// 	"scope": [
+		// 		"meta.attribute.python",
+		// 		"meta.member.access.python",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#82aaff" //  func when defined
+		// 	}
+		// },
 		{
 			"scope": [
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#FFB454"
+				"foreground": "#82aaff", //  func when defined
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -458,7 +485,7 @@
 				"meta.parameter"
 			],
 			"settings": {
-				"foreground": "#D2A6FF"
+				"foreground": "#d9d9d9" // param in function. x in func(x=2) 
 			}
 		},
 		{
@@ -469,7 +496,8 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#FFB454" // ff54ff
+				"foreground": "#82aaff", // func when called
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -478,7 +506,7 @@
 				"support.macro"
 			],
 			"settings": {
-				"foreground": "#F07178" //F07178
+				"foreground": "#F07178" // print or __getattribute__ in  obj.__getattribute__()
 			}
 		},
 		{
@@ -495,7 +523,18 @@
 				"entity.name"
 			],
 			"settings": {
-				"foreground": "#59C2FF"
+				"foreground": "#ffcb6b", // class name. -> person in class person(object)
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"support.class.builtin.python",
+				"support.class.python",
+			],
+			"settings": {
+				"foreground": "#ffcb6b", // 
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -504,7 +543,7 @@
 				"meta.tag.sgml"
 			],
 			"settings": {
-				"foreground": "#39BAE6"
+				"foreground": "#ffcb6b"
 			}
 		},
 		{
@@ -549,7 +588,7 @@
 				"source.go storage.type"
 			],
 			"settings": {
-				"foreground": "#39BAE6"
+				"foreground": "#39BAE6" // dict, list, set
 			}
 		},
 		{
