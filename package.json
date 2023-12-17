@@ -1,26 +1,44 @@
 {
-  "name": "voyager-dark",
-  "displayName": "Voyager Dark",
-  "description": "A dark theme focused on python",
-  "version": "0.0.1",
-  "publisher":"",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "engines": {
-    "vscode": "^1.85.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Voyager Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Voyager Dark-color-theme.json"
-      }
-    ]
-  }
+	"name": "voyager",
+	"displayName": "Voyager Dark",
+	"description": "A simple dark theme by the Voager Team with a focus on python syntax highlighting",
+	"version": "0.0.1",
+	"publisher": "Voyager Team",
+
+
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"voyager"
+	],
+
+	"contributes": {
+		"themes": [
+			{
+				"label": "Voyager Dark",
+				"uiTheme": "vs-dark",
+				"path": "./voyager.json"
+			}
+		]
+	},
+	"icon": "picutre/logo.png",
+	"scripts": {
+		"build": "ts-node ./src/build.ts",
+		"package": "vsce package",
+		"start": "npm run build; npm run package",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/node": "^16.6.0",
+		"voyager": "^8.0.1",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.3",
+		"vsce": "^1.96.1"
+	}
+	
 }

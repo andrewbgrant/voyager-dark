@@ -1,9 +1,3 @@
 # Change Log
 
-All notable changes to the "voyager-dark" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+Version 0.0.1 creation.

@@ -1,9 +1,26 @@
 # voyager-dark README
 
 
-## For more information
 
-* [Visual Studio Code&#39;s Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+> Source from: https://github.com/andrewbgrant/voyager-dark
 
-**Enjoy!**
+A simple dark theme by the Voager Team with a focus on python syntax highlighting.
+
+
+## Install
+
+```shell
+ext install ayu
+```
+
+
+## Development
+Install dependencies
+```shell
+npm install
+```
+
+Update themes and build VSIX package
+```shell
+npm run build && npm run package
+```
