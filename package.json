@@ -1,9 +1,9 @@
 {
-	"name": "voyager",
+	"name": "voyager-dark",
 	"displayName": "Voyager Dark",
 	"description": "A simple dark theme by the Voager Team with a focus on python syntax highlighting",
 	"version": "0.0.1",
-	"publisher": "Voyager Team",
+	"publisher": "VoyagerTeam",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/andrewbgrant/voyager-dark"
