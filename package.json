@@ -4,7 +4,10 @@
 	"description": "A simple dark theme by the Voager Team with a focus on python syntax highlighting",
 	"version": "0.0.1",
 	"publisher": "Voyager Team",
-
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrewbgrant/voyager-dark"
+	},
 
 	"engines": {
 		"vscode": "^1.13.0"
@@ -22,11 +25,10 @@
 			{
 				"label": "Voyager Dark",
 				"uiTheme": "vs-dark",
-				"path": "./voyager.json"
+				"path": "./themes/voyager.json"
 			}
 		]
 	},
-	"icon": "picutre/logo.png",
 	"scripts": {
 		"build": "ts-node ./src/build.ts",
 		"package": "vsce package",

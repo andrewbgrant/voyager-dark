@@ -508,6 +508,13 @@
 			}
 		},
 		{
+			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"settings": {
+				"foreground": "#A6E22E",
+				"fontStyle": "underline" //with comments
+			}
+		},
+		{
 			"name": "JSX Component",
 			"scope": [
 				"support.class.component"
