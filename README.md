@@ -2,6 +2,6 @@
 
 > Source from: https://github.com/andrewbgrant/voyager-dark
 
-A simple dark theme by the Voager Team with a focus on python syntax highlighting.
+A simple dark theme by the Voyager Team with a focus on python syntax highlighting.
 
 
