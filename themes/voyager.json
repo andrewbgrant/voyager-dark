@@ -9,7 +9,7 @@
 		"activityBarBadge.background": "#e6b450",
 		"activityBarBadge.foreground": "#734d00",
 		
-
+		
 
 
 		"focusBorder": "#ffcc66b3",
@@ -268,7 +268,7 @@
 				"constant.other.symbol"
 			],
 			"settings": {
-				"foreground": "#b0d47e"
+				"foreground": "#b0d47e" 
 			}
 		},
 		{
@@ -348,12 +348,30 @@
 			}
 		},
 		{
+			"name": "Keyword: Import, from as",
+			"scope": [
+				"keyword.control.import.python"
+			],
+			"settings": {
+				"foreground": "#f69b76"
+			}
+		},
+		{
+			"name": "Keyword: Import, from as",
+			"scope": [
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#FF8F40" 
+			}
+		},
+		{
 			"name": "Operators",
 			"scope": [
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#F29668"
+				"foreground": "#FF8F40"
 			}
 		},
 		{
@@ -450,22 +468,22 @@
 			}
 		},
 		{
-			"name": "Function name",
-			"scope": [
-				"entity.name.function"
-			],
-			"settings": {
-				"foreground": "#82aaff"
-			}
-		},
-		{
 			"name": "Function arguments",
 			"scope": [
 				"variable.parameter",
 				"meta.parameter"
 			],
 			"settings": {
-				"foreground": "#d9d9d9"
+				"foreground": "#d9d9d9" 
+			}
+		},
+		{
+			"name": " Class' self",
+			"scope": [
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#C16F88" 
 			}
 		},
 		{
@@ -501,12 +519,31 @@
 			}
 		},
 		{
-			"name": "Entity name",
+			"name": "Imports and Modules",
 			"scope": [
-				"entity.name"
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#6FC1AD"
+			}
+		},
+		{
+			"name": "Entity name Classes",
+			"scope": [
+				"entity.name.type.class"
 			],
 			"settings": {
 				"foreground": "#31DCE4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#82aaff",
 				"fontStyle": "italic"
 			}
 		},
@@ -567,7 +604,7 @@
 				"source.go storage.type"
 			],
 			"settings": {
-				"foreground": "#39BAE6"
+				"foreground": "#39BAE6" 
 			}
 		},
 		{
